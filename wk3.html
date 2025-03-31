@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio: Brian Opiyo</title>
+</head>
+<body>
+
+    <nav>        
+        <a class="homepg" href="#about">About Me</a>
+       <a class="homepg" href="#projects">Projects</a>
+        <a class="homepg" href="#contact">Contact</a>
+
+    </nav>
+
+    <header>
+        <img src="C:\Users\Administrator\OneDrive\Desktop\Software Engineering\Web Development\Assignments\feb-2025-introduction-to-css-opiyobrian2017\images\brian.JPG" alt="Profile Picture" class="profile-pic" width="300" height="400">
+        <div>
+            <h1>Brian Opiyo</h1>
+            <p>Software Engineer | Web Developer | Tech Enthusiast</p>
+        </div>
+    </header><br><br>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p align = "center">A civil engineer with a passion for delivering results and a registered member of Engineers Board of Kenya. 
+            I combine technical knowledge with hands-on project management experience gained over three years in 
+            community development. I’ve led program implementation, surveys, and events with organizations like 
+            National Council of Churches of Kenya, ICIPE, and TAPONA—consistently completing projects on time and 
+            within budget. Skilled in planning, team mobilization, and execution, I am ready to join a dynamic project 
+            team to achieve impactful goals.</p>
+    </section>
+
+    <section id="myprojects">
+        <h2>Projects</h2>
+        <div id="projects">
+            <div class="column">
+                <h3>Web Design:</h3>
+                <p>E-commerce Website - A fully functional online store with payment integration.</p><br>
+                <p>click <a href="https://www.holzmobel.co.ke">here</a> for a sample website</p>
+            </div>
+
+            <div class="column">
+                <h3>Graphic Design:</h3>
+                <p>Portfolio Website - A personal portfolio showcasing my skills and projects.</p><br>
+                <p>Request a pdf attachment for more details</p>
+            </div>
+
+            <div class="column">
+                <h3>Project Management:</h3>
+                <p>Task Manager App - A web app to manage daily tasks efficiently.</p><br>
+            </div>
+        </div>
+    
+        <section id="photo-gallery">
+            <h2>Photo Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="C:\Users\Administrator\OneDrive\Desktop\Software Engineering\Web Development\Assignments\feb-2025-introduction-to-css-opiyobrian2017\images\art1.png" alt="Photo 1" width="400" height="400">
+            <p>Live event Poster</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\Administrator\OneDrive\Desktop\Software Engineering\Web Development\Assignments\feb-2025-introduction-to-css-opiyobrian2017\images\art2.png" alt="Photo 2" width="400" height="400">
+            <p>Job Application Posters</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\Administrator\OneDrive\Desktop\Software Engineering\Web Development\Assignments\feb-2025-introduction-to-css-opiyobrian2017\images\art3.png" alt="Photo 3" width="400" height="400">
+            <p>Logo Designs</p>
+        </div>
+    </div>
+
+        </section>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form action="mailto:opiyobrian2017@gmail.com" method="post">
+            <!-- Name Input -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required><br><br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required><br><br>
+
+            <!-- Gender Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required selected>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+
+            <!-- Dropdown for Enquiry Type -->
+            <label for="enquiry">Enquiry Type:</label><br>
+            <select id="enquiry" name="enquiry" required>
+                <option value="" disabled selected>Select an enquiry type</option>
+                <option value="quote">Request for Quote</option>
+                <option value="pdf-profile">PDF Profile Request</option>
+                <option value="data-analysis">Data Analysis Consultancy</option>
+                <option value="live-tour">Live Tour Request</option>
+                <option value="general-enquiry">General Enquiry</option>
+                <option value="others">Others</option>
+            </select><br><br>
+            <label for="Message">Message</label><br>
+            <textarea name="message" id="message" placeholder="Write your enquiry here..." columns=" 60" rows="6"></textarea><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Send"><br>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; <i>2025 Brian Opiyo. All rights reserved.</i></p>
+    </footer>
+</body>
+</html>
